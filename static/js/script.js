@@ -7,8 +7,6 @@ var servicesDarken = document.getElementsByClassName("services__darken")[0];
 var navItems = document.getElementsByClassName("nav__items")[0];
 var navBox = document.getElementsByClassName("nav__box")[0];
 var navCheckbox = document.getElementsByClassName("nav__checkbox")[0];
-var englishRadio = document.getElementsByClassName("english__radio")[0];
-var deutchRadio = document.getElementsByClassName("deutch__radio")[0];
 
 
 // Function for toggling menu on mobile
