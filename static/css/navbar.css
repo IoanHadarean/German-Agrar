@@ -122,7 +122,10 @@ html, body {
 
 .nav__link, .nav__country {
     text-decoration: none;
-    margin-right: 2.84%;
+}
+
+.nav__link:hover {
+    background: #F2F4F3;
 }
 
 .nav__offers {
@@ -295,6 +298,13 @@ input[name = "checkbox"] {
 @media (min-width: 768px) and (max-width: 2560px) {
     .nav__checkbox {
         display: none;
+    }
+    
+    .nav__link {
+        padding-right: 2.84%;
+        padding-left: 2.84%;
+        padding-bottom: 20px;
+        padding-top: 30px;
     }
 
     .header__nav {
