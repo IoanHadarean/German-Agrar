@@ -4,27 +4,20 @@
         url("../fonts/Calibre.ttf") format("truetype");
         font-weight:normal;
         font-style:normal;}
-        
+
+
 /* -------- JavaScript classes ----------- */
 .translateTop {
-    -moz-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-    -moz-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
 }
 
 .translateBottom {
-    -moz-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -35,7 +28,7 @@
     width: 80.62%;
     height: 60px;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 130px;
     background: #006F3C;
     left: 9.69%;
     right: 9.69%;
@@ -45,14 +38,15 @@
 .nav__items--active {
     display: block;
     height: 316px;
-    width: 77.19%;
+    width: 247px;
     left: 10.62%;
     right: 12.19%;
     line-height: 50px;
-    top: 10px;
+    top: 45px;
     position: absolute;
     z-index: 1;
-}  
+}
+
 
 
 /* ------ Special margins and styling -------- */
@@ -151,10 +145,6 @@ html, body {
     right: 28.27px;
 }
 
-.nav__box, .nav__items {
-    display: none;
-}
-
 .nav__english, .nav__deutch, .deutch__description, .english__description, .nav__checkbox {
     position: absolute;
 }
@@ -205,7 +195,7 @@ input[name = "checkbox"] {
 
 
 @media screen and (max-width: 767px) {
-    .nav__checkbox, .header__line, .nav__country, .nav__flag {
+    .nav__checkbox, .header__logo, .header__line, .nav__country, .nav__flag {
       display: none;
     }
 
@@ -213,11 +203,27 @@ input[name = "checkbox"] {
         height: 490px;
     }
 
+    .link__title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: -20px;
+        margin-left: -4.37%;
+        padding-left: 7.5%;
+        padding-left: 4.37%;
+        display: inline-block;
+        width: 247px;
+        right: 12.19%;
+    }
+
     .nav__link {
         left: 10.62%;
         right: 12.19%;
         font-family: "Calibre";
         font-size: 23px;
+        display: inline-block;
+        width: 247px;
+        padding-right: 7.5%;
+        padding-bottom: 30px;
         letter-spacing: 2.2px;
         text-transform: uppercase;
     }
@@ -299,7 +305,7 @@ input[name = "checkbox"] {
     .nav__checkbox {
         display: none;
     }
-    
+
     .nav__link {
         padding-right: 2.84%;
         padding-left: 2.84%;
@@ -321,6 +327,7 @@ input[name = "checkbox"] {
         background: #006F3C;        
     }
 }
+
 
 
 
