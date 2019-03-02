@@ -8,16 +8,24 @@
 
 /* -------- JavaScript classes ----------- */
 .translateTop {
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
 }
 
 .translateBottom {
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -208,7 +216,6 @@ input[name = "checkbox"] {
         padding-bottom: 20px;
         margin-top: -20px;
         margin-left: -4.37%;
-        padding-left: 7.5%;
         padding-left: 4.37%;
         display: inline-block;
         width: 247px;
@@ -327,8 +334,6 @@ input[name = "checkbox"] {
         background: #006F3C;        
     }
 }
-
-
 
 
 
