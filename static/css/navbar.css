@@ -8,24 +8,16 @@
 
 /* -------- JavaScript classes ----------- */
 .translateTop {
-    -moz-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-    -moz-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
 }
 
 .translateBottom {
-    -moz-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-    -moz-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -126,10 +118,6 @@ html, body {
     text-decoration: none;
 }
 
-.nav__link:hover {
-    background: #F2F4F3;
-}
-
 .nav__offers {
     display: flex;
     align-items: center;
@@ -209,6 +197,8 @@ input[name = "checkbox"] {
 
     .header__nav {
         height: 490px;
+        background: #FFF;
+        z-index: 9;
     }
 
     .link__title {
@@ -216,10 +206,15 @@ input[name = "checkbox"] {
         padding-bottom: 20px;
         margin-top: -20px;
         margin-left: -4.37%;
+        padding-left: 7.5%;
         padding-left: 4.37%;
         display: inline-block;
         width: 247px;
         right: 12.19%;
+    }
+
+    .link__title:hover {
+        background: #F2F4F3;
     }
 
     .nav__link {
@@ -250,6 +245,7 @@ input[name = "checkbox"] {
         left: 93.75%;
         right: -3.75%;
         top: 2.64vh;
+        z-index: 10;
         transform: rotate(90deg);
     }
   }
@@ -320,6 +316,10 @@ input[name = "checkbox"] {
         padding-top: 30px;
     }
 
+    .nav__link:hover {
+        background: #F2F4F3;
+    }
+
     .header__nav {
         text-align: center;
     }
@@ -334,6 +334,7 @@ input[name = "checkbox"] {
         background: #006F3C;        
     }
 }
+
 
 
 
