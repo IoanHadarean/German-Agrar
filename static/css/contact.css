@@ -1,0 +1,267 @@
+/* ------ Special margins and styling -------- */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+/* ------------------------------  Contact ------------------*/
+
+.contact {
+    position: absolute;
+    height: 1761px;
+    width: 100%;
+    top: 65px;
+}
+
+.contact__title {
+    position: absolute;
+    width: 56.05vw;
+    left: 22.01vw;
+    right: 21.94vw;
+    text-align: center;
+    font-family: Calibre;
+    line-height: 70px;
+    font-size: 70px;
+    text-align: center;
+    top: 69px;
+    margin: 0;
+
+    color: #006F3C;
+}
+
+.contact__description {
+    top: 158px;
+    position: absolute;
+    width: 51.94vw;
+    left: 24.03vw;
+    right: 24.03vw;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+
+    color: #2F302E;
+}
+
+.contact__germany {
+    top: 281px;
+    position: absolute;
+    width: 100%;
+    height: 181px;
+    background: #EBF2EC;
+}
+
+.contact__hamburg {
+    top: 41px;
+    position: absolute;
+    width: 17.85vw;
+    height: 117px;
+    left: 28.68vw;
+    right: 53.47vw;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+
+    color: #006F3C;
+}
+
+.hamburg__city, .munich__city {
+    font-weight: bold;
+}
+
+.contact__munich {
+    top: 41px;
+    position: absolute;
+    width: 16.74vw;
+    height: 80px;
+    left: 54.86vw;
+    right: 28.4vw;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+    top: 41px;
+
+    color: #006F3C;
+}
+
+.contact__locations {
+    top: 462px;
+    position: absolute;
+    height: 207px;
+    width: 100vw;
+}
+
+
+.contact__latvija, .contact__romania, .contact__danmark, .contact__ukraine {
+    display: inline-block;
+    height: 72px;
+    position: absolute;
+}
+
+.contact__inline {
+    top: 60px;
+    position: absolute;
+    height: 84px;
+    left: 0;
+    width: 64.8vw;
+    right: 17.56vw;
+}
+
+.contact__latvija {
+    left: 17.64vw;
+    width: 13.88vw;
+    right: 68.48vw;
+    position: absolute;
+    height: 72px;
+}
+
+.contact__romania {
+    left: 34.86vw;
+    right: 51.39vw;
+    position: absolute;
+    width: 13.75vw;
+    height: 73px;
+}
+
+.contact__danmark {
+    left: 52.57vw;
+    right: 34.38vw;
+    position: absolute;
+    width: 13.05vw;
+    height: 69px;
+}
+
+.contact__ukraine {
+    position: absolute;
+    height: 80px;
+    left: 69.51vw;
+    right: 17.57vw;
+    width: 12.92vw;
+}
+
+.latvija__title, .romania__title, .danmark__title, .ukraine__title {
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: #006F3C;
+}
+
+.latvija__phone, .romania__phone, .danmark__phone, .ukraine__phone {
+    top: 40px;
+    position: absolute;
+}
+
+
+.contact__form {
+    height: 918px;
+    width: 100%;
+    position: absolute;
+    top: 669px;
+    background: #EBF2EC;
+}
+.contact__reach {
+    left: 34.65%;
+    right: 34.58%;
+    top: 69px;
+    position: absolute;
+    height: 40px;
+    width: 30.77vw;
+    font-family: Calibre;
+    line-height: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+
+    color: #006F3C;
+}
+
+.contact__separator {
+    display: inline-block;
+    height: 63px;
+    width: 1px;
+    border: 1px solid #F2F4F3;
+}
+
+/* ----------------------------- Footer ---------------------*/
+  
+.footer {
+    position: absolute;
+    top: 1761px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 111px;
+    background: #EBF2EC;
+}
+
+
+.footer__terms {
+    top: 35px;
+    height: 14px;
+    font-family: "Calibre";
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    position: absolute;
+
+    color: #006F3C;
+}
+
+.footer__copyright {
+    top: 64px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    font-family: "Calibre";
+    height: 14px;
+    font-size: 15px;
+
+
+    color: #97ABA2;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        top: 4790px;
+    }
+
+    .footer__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 2560px) {
+    .footer {
+        height: 50px;
+        top: none;
+    }
+
+    .footer__terms {
+        top: 18px;
+        right: 1.6vw;
+        position: absolute;
+    }
+
+    .footer__copyright {
+        top: 0;
+        left: 1.94vw;
+        position: absolute;
+        padding-top: 20px;
+    }
+    
+}
