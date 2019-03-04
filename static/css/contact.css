@@ -10,6 +10,11 @@ p {
     margin: 0;
 }
 
+input {
+    border: 0;
+    padding: 0;
+}
+
 /* ------------------------------  Contact ------------------*/
 
 .contact {
@@ -188,9 +193,89 @@ p {
 .contact__separator {
     display: inline-block;
     height: 63px;
-    width: 1px;
+    width: 0.21vw;
     border: 1px solid #F2F4F3;
+    background: #F2F4F3;
 }
+
+.latvija {
+    left: 32.5vw;
+    right: 67.29vw;
+    position: absolute;
+}
+
+.romania {
+    left: 50.56vw;
+    right: 49.25vw;
+    position: absolute;
+}
+
+.danmark {
+    left: 67.2vw;
+    right: 32.6vw;
+    position: absolute;
+}
+
+.contact__complete {
+    position: absolute;
+    left: 29.58vw;
+    right: 29.58vw;
+    width: 40.84vw;
+    height: 775px;
+    top: 813px;
+    display: block;
+}
+
+.contact__name, .contact__typing, .contact__email, .contact__phone, .contact__message {
+    position: absolute;
+    height: 70px;
+    width: 40.84vw;
+    padding-bottom: 30px;
+}
+
+.contact__typing {
+    top: 100px;
+}
+
+.contact__phone {
+    top: 300px;
+}
+
+.contact__email {
+    top: 400px;
+}
+
+.contact__message {
+    top: 500px;
+}
+
+
+.name__inline, .typing__inline, .email__inline, .phone__inline, .message__inline {
+    width: 40.84vw;
+    position: absolute;
+    height: 70px;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+
+    color: #A5B4A0;
+}
+
+.name-styling {
+    border-left: 22px;
+}
+
+.contact__button {
+    height: 60px;
+    background: #006F3C;
+    bottom: 108px;
+    position: absolute;
+    width: 40.84vw;
+    height: 60px;
+}
+
+
+
 
 /* ----------------------------- Footer ---------------------*/
   
