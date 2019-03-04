@@ -1,23 +1,23 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
-@font-face {font-family:"Calibre";
+/* @font-face {font-family:"Calibre";
     src:url("../fonts/Calibre.woff") format("woff"),
         url("../fonts/Calibre.ttf") format("truetype");
         font-weight:normal;
-        font-style:normal;}
+        font-style:normal;} */
 
 
 /* -------- JavaScript classes ----------- */
 .translateTop {
-    -webkit-transition: ease 0.5s;
-    transition: ease 0.5s;
+    -webkit-transition: ease 0.25s;
+    transition: ease 0.25s;
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
 }
 
 .translateBottom {
-    -webkit-transition: ease 0.5s;
-    transition: ease 0.5s;
+    -webkit-transition: ease 0.25s;
+    transition: ease 0.25s;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -32,7 +32,7 @@
     background: #006F3C;
     left: 9.69%;
     right: 9.69%;
-    z-index: 1;
+    z-index: 3;
 } 
 
 .nav__items--active {
@@ -44,7 +44,7 @@
     line-height: 50px;
     top: 45px;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
 }
 
 

@@ -11,30 +11,30 @@ var navCheckbox = document.getElementsByClassName("nav__checkbox")[0];
 
 // Function for toggling menu on mobile
 toggleMenu.addEventListener('click', function (e) {
-    if (navItems.style.display === 'none') {
+    if (servicesHeader.style.visibility === 'visible') {
         navItems.classList.add('nav__items--active');
         navBox.classList.add('nav__box--active');
         navHeader.classList.add('translateBottom');   
-        navHeader.classList.remove('translateTop');
+        // navHeader.classList.remove('translateTop');
         navBox.classList.add('translateBottom');        
-        navBox.classList.remove('translateTop');
-        navItems.style.display = 'block';
-        navBox.style.display = 'block';
-        navCheckbox.style.display = 'block';
+        // navBox.classList.remove('translateTop');
+        // navItems.style.display = 'block';
+        // navBox.style.display = 'block';
+        // navCheckbox.style.display = 'block';
         toggleMenu.style.transform = 'rotate(180deg)';
         servicesHeader.style.visibility = "hidden";
         servicesImage.style.visibility = "hidden";
         servicesDarken.style.visibility = "hidden";    
     }
     else {
-        navItems.style.display = 'none';
-        navBox.style.display = 'none';
-        navCheckbox.style.display = 'none';
+        // navItems.style.display = 'none';
+        // navBox.style.display = 'none';
+        // navCheckbox.style.display = 'none';
         navHeader.classList.add('translateTop');
         navHeader.classList.remove('translateBottom');
         navItems.classList.remove('nav__items--active');
-        navBox.classList.add('translateBottom');        
-        navBox.classList.remove('translateTop');
+        navBox.classList.add('translateTop');        
+        navBox.classList.remove('translateBottom');
         navBox.classList.remove('nav__box--active');
         toggleMenu.style.transform = 'rotate(90deg)';
         servicesHeader.style.visibility = "visible";

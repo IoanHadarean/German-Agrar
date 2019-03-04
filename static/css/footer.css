@@ -1,9 +1,9 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
-@font-face {font-family:"Calibre";
+/* @font-face {font-family:"Calibre";
     src:url("../fonts/Calibre.woff") format("woff"),
         url("../fonts/Calibre.ttf") format("truetype");
         font-weight:normal;
-        font-style:normal;}
+        font-style:normal;} */
 
 /* ------ Special margins and styling -------- */
 html, body {

@@ -1,9 +1,9 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
-@font-face {font-family:"Calibre";
+/* @font-face {font-family:"Calibre";
   src:url("../fonts/Calibre.woff") format("woff"),
       url("../fonts/Calibre.ttf") format("truetype");
       font-weight:normal;
-      font-style:normal;}
+      font-style:normal;} */
 
 /* ------ Special margins and styling -------- */
 html, body {
@@ -19,7 +19,6 @@ html, body {
       width: 100vw;
       position: absolute;
       top: 119px;
-      z-index: 14;
   }
 
   .services__activities {
@@ -70,7 +69,7 @@ html, body {
     left: -0.31%;
     right: 7.5%;
     top: 65px;
-    z-index: 15;
+    z-index: 2;
     position: absolute;
     font-family: "Calibre";
     font-size: 45px;
@@ -366,6 +365,10 @@ html, body {
     width: 100%;
   }
 
+  .investments__information {
+    top: 1264px;
+  }
+
   .services__range {
     visibility: visible;
   }
@@ -442,7 +445,7 @@ html, body {
     background: none;
     left: 8.68vw;
     width: 56vw;
-    right: 35.28vw;
+    right: 35.32vw;
     position: absolute;
   }
 
@@ -515,7 +518,7 @@ html, body {
   .investments__field {
     top: 724px;
     width: 50vw;
-    left: 50%;
+    left: 50vw;
   }
 
   .investments__header {
@@ -528,7 +531,7 @@ html, body {
     width: 50vw;
     position: absolute;
     left: 0;
-    top: 722px;
+    top: 726px;
   }
 
   .investments__image {
@@ -547,10 +550,10 @@ html, body {
     width: 53px;
     height: 53px;
     background: #006F3C;
-    right: 50vw;
+    right: 49.2vw;
     position: absolute;
     transform: rotate(90deg);
-    z-index: 1;
+    z-index: 5;
   }
 
   .investments__arrow {
@@ -562,12 +565,13 @@ html, body {
   .businesses__field {
     top: 1600px;
     width: 50vw;
-    right: 50%;
+    right: 49.7%;
     height: 690px;
   }
 
   .businesses__image {
     height: 690px;
+    z-index: 4;
   }
 
   .businesses__management {
@@ -598,7 +602,7 @@ html, body {
     width: 53px;
     height: 53px;
     background: #00A84F;
-    left: 50vw;
+    left: 49.6vw;
     position: absolute;
     transform: rotate(90deg);
     z-index: 1;
