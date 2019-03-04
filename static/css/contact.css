@@ -238,6 +238,29 @@ input {
     top: 100px;
 }
 
+.contact__country, .contact__city {
+    top: 200px;
+    position: absolute;
+    height: 70px;
+    width: 19.59vw;
+    padding-bottom: 30px;
+}
+
+.city__inline, .country__inline {
+    width: 19.59vw;
+    position: absolute;
+    height: 70px;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+
+    color: #A5B4A0;
+}
+
+.city__inline, .contact__city {
+    right: 0;
+}
+
 .contact__phone {
     top: 300px;
 }
