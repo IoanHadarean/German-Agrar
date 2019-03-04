@@ -261,6 +261,15 @@ input {
     right: 0;
 }
 
+.city__inline {
+    padding-left: 22px;
+}
+
+.city-styling {
+    padding-left: 22px;
+    width: 17.59vw;
+}
+
 .contact__phone {
     top: 300px;
 }
