@@ -231,6 +231,7 @@ input {
     height: 70px;
     width: 40.84vw;
     padding-bottom: 30px;
+    margin-left: -22px;
 }
 
 .contact__typing {
@@ -249,7 +250,6 @@ input {
     top: 500px;
 }
 
-
 .name__inline, .typing__inline, .email__inline, .phone__inline, .message__inline {
     width: 40.84vw;
     position: absolute;
@@ -259,10 +259,17 @@ input {
     font-size: 20px;
 
     color: #A5B4A0;
+    padding-left: 22px;
 }
 
-.name-styling {
-    border-left: 22px;
+.name-styling, .typing-styling, .email-styling, .phone-styling, .message-styling {
+    padding-left: 22px;
+    width: 39.4vw;
+}
+
+.typing-styling {
+    border: 2px solid #006F3C;
+    color: #000000;
 }
 
 .contact__button {
@@ -272,6 +279,30 @@ input {
     position: absolute;
     width: 40.84vw;
     height: 60px;
+}
+
+.button__send {
+    width: 8.54vw;
+    position: absolute;
+    height: 16px;
+    left: 216px;
+    top: 25px;
+    font-family: Calibre;
+    line-height: 16px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button__arrow {
+    width: 1.46vw;
+    position: absolute;
+    left: 347px;
+    top: 24px;
+    height: 11.45px;
+    display: flex;
 }
 
 
