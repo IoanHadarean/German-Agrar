@@ -15,9 +15,9 @@ toggleMenu.addEventListener('click', function (e) {
         navItems.classList.add('nav__items--active');
         navBox.classList.add('nav__box--active');
         navHeader.classList.add('translateBottom');   
-        // navHeader.classList.remove('translateTop');
+        navHeader.classList.remove('translateTop');
         navBox.classList.add('translateBottom');        
-        // navBox.classList.remove('translateTop');
+        navBox.classList.remove('translateTop');
         // navItems.style.display = 'block';
         // navBox.style.display = 'block';
         // navCheckbox.style.display = 'block';
@@ -36,6 +36,7 @@ toggleMenu.addEventListener('click', function (e) {
         navBox.classList.add('translateTop');        
         navBox.classList.remove('translateBottom');
         navBox.classList.remove('nav__box--active');
+        navHeader.style.zIndex = '9';
         toggleMenu.style.transform = 'rotate(90deg)';
         servicesHeader.style.visibility = "visible";
         servicesImage.style.visibility = "visible";

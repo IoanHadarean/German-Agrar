@@ -32,7 +32,6 @@
     background: #006F3C;
     left: 9.69%;
     right: 9.69%;
-    z-index: 3;
 } 
 
 .nav__items--active {
@@ -44,7 +43,6 @@
     line-height: 50px;
     top: 45px;
     position: absolute;
-    z-index: 3;
 }
 
 
@@ -198,7 +196,6 @@ input[name = "checkbox"] {
     .header__nav {
         height: 490px;
         background: #FFF;
-        z-index: 9;
     }
 
     .link__title {
