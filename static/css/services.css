@@ -19,6 +19,7 @@ html, body {
       width: 100vw;
       position: absolute;
       top: 119px;
+      z-index: 14;
   }
 
   .services__activities {
@@ -69,7 +70,7 @@ html, body {
     left: -0.31%;
     right: 7.5%;
     top: 65px;
-    z-index: 2;
+    z-index: 15;
     position: absolute;
     font-family: "Calibre";
     font-size: 45px;
@@ -369,7 +370,7 @@ html, body {
     visibility: visible;
   }
 
-  .partner, .land__information, .land__field, .land__image {
+  .partner, .land__field, .land__image {
     width: 100vw;
     left: 0;
   }
@@ -385,11 +386,13 @@ html, body {
 
   .land__field, .land__image {
     height: 324px;
-    top: 3406px;
+    top: 3426px;
   }
 
   .land__information {
     top: 3730px;
+    width: 94.38vw;
+    left: 5.62vw;
   }
 
   .land__logo {
