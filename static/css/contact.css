@@ -19,7 +19,7 @@ input {
 
 .contact {
     position: absolute;
-    height: 1586px;
+    height: 1761px;
     width: 100%;
     top: 65px;
 }
@@ -168,7 +168,7 @@ input {
 
 
 .contact__form {
-    height: 918px;
+    height: 1000px;
     width: 100%;
     position: absolute;
     top: 669px;
@@ -299,6 +299,12 @@ input {
     width: 39.4vw;
 }
 
+.message-styling {
+    height: 145px;
+    position: absolute;
+    padding-top: 29px;
+}
+
 .typing-styling {
     border: 2px solid #006F3C;
     color: #000000;
@@ -307,14 +313,14 @@ input {
 .contact__button {
     height: 60px;
     background: #006F3C;
-    bottom: 108px;
+    bottom: 4px;
     position: absolute;
     width: 40.84vw;
     height: 60px;
 }
 
 .button__send {
-    width: 8.54vw;
+    width: 10vw;
     position: absolute;
     height: 16px;
     left: 216px;
@@ -331,10 +337,9 @@ input {
 .button__arrow {
     width: 1.46vw;
     position: absolute;
-    left: 347px;
+    left: 360px;
     top: 24px;
     height: 11.45px;
-    display: flex;
 }
 
 
@@ -344,7 +349,7 @@ input {
   
 .footer {
     position: absolute;
-    top: 1651px;
+    top: 1761px;
     left: 0;
     bottom: 0;
     width: 100%;
