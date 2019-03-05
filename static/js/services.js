@@ -33,9 +33,9 @@ toggleMenu.addEventListener('click', function (e) {
         navHeader.classList.add('translateTop');
         navHeader.classList.remove('translateBottom');
         navItems.classList.remove('nav__items--active');
+        navBox.classList.remove('nav__box--active');
         navBox.classList.add('translateTop');        
         navBox.classList.remove('translateBottom');
-        navBox.classList.remove('nav__box--active');
         navHeader.style.zIndex = '9';
         toggleMenu.style.transform = 'rotate(90deg)';
         servicesHeader.style.visibility = "visible";
@@ -44,6 +44,8 @@ toggleMenu.addEventListener('click', function (e) {
     }
     e.preventDefault();
 });
+
+
 
 
 

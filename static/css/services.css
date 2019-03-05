@@ -132,7 +132,6 @@ html, body {
 
   .investments__image {
     width: 100%;
-    top: 21px;
     position: absolute;
   }
 
@@ -516,7 +515,7 @@ html, body {
   }
 
   .investments__field {
-    top: 724px;
+    top: 722px;
     width: 50vw;
     left: 50vw;
   }
@@ -531,11 +530,10 @@ html, body {
     width: 50vw;
     position: absolute;
     left: 0;
-    top: 726px;
+    top: 722px;
   }
 
   .investments__image {
-    top: -3px;
     position: absolute;
     width: 50vw;
     float: right;
@@ -550,7 +548,7 @@ html, body {
     width: 53px;
     height: 53px;
     background: #006F3C;
-    right: 49.2vw;
+    right: 50vw;
     position: absolute;
     transform: rotate(90deg);
     z-index: 5;
@@ -565,7 +563,7 @@ html, body {
   .businesses__field {
     top: 1600px;
     width: 50vw;
-    right: 49.7%;
+    right: 50vw;
     height: 690px;
   }
 
@@ -588,7 +586,7 @@ html, body {
   .businesses__information {
     top: 1600px;
     width: 50vw;
-    left: 50%;
+    left: 50vw;
     height: 690px;
   }
 
@@ -602,7 +600,7 @@ html, body {
     width: 53px;
     height: 53px;
     background: #00A84F;
-    left: 49.6vw;
+    left: 50vw;
     position: absolute;
     transform: rotate(90deg);
     z-index: 1;
@@ -643,7 +641,7 @@ html, body {
 
 @media (min-width: 1340px) and (max-width: 2560px) {
   .investments__box {
-    top: 1570px;
+    top: 1600px;
     position: absolute;
   }
 }
