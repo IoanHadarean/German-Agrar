@@ -246,6 +246,24 @@ input {
     padding-bottom: 30px;
 }
 
+.country__text {
+    left: 22px;
+    position: absolute;
+    z-index: 2;
+    top: 29px;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+    color: #006F3C;
+}
+
+.country__dropdown {
+    z-index: 4;
+    top: 34px;
+    left: 255px;
+    position: absolute;
+}
+
 .city__inline, .country__inline {
     width: 19.59vw;
     position: absolute;
@@ -255,6 +273,12 @@ input {
     font-size: 20px;
 
     color: #A5B4A0;
+}
+
+.country__inline {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
 }
 
 .city__inline, .contact__city {
