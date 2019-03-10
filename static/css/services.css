@@ -360,13 +360,21 @@ html, body {
 
 /* ---------------------------------Media queries -------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .investments__box, .range__header, .services__darken, .services__image {
     width: 100%;
   }
 
   .investments__information {
     top: 1264px;
+  }
+
+  .businesses__image {
+    top: 50px;
+  }
+
+  .businesses__information {
+    top: 2764px;
   }
 /* 
   .services__range {
@@ -389,11 +397,11 @@ html, body {
 
   .land__field, .land__image {
     height: 324px;
-    top: 3426px;
+    top: 3476px;
   }
 
   .land__information {
-    top: 3730px;
+    top: 3780px;
     width: 94.38vw;
     left: 5.62vw;
   }
@@ -419,7 +427,7 @@ html, body {
   }
 
   .partner {
-    top: 4420px;
+    top: 4470px;
     height: 370px;
   }
 
