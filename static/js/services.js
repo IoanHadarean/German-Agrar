@@ -16,26 +16,14 @@ toggleMenu.addEventListener('click', function (e) {
         navBox.classList.add('nav__box--active');
         navHeader.classList.add('translateBottom');   
         navHeader.classList.remove('translateTop');
-        navBox.classList.add('translateBottom');        
-        navBox.classList.remove('translateTop');
-        // navItems.style.display = 'block';
-        // navBox.style.display = 'block';
-        // navCheckbox.style.display = 'block';
         toggleMenu.style.transform = 'rotate(180deg)';
         servicesHeader.style.visibility = "hidden";
         servicesImage.style.visibility = "hidden";
-        servicesDarken.style.visibility = "hidden";    
+        servicesDarken.style.visibility = "hidden"; 
     }
     else {
-        // navItems.style.display = 'none';
-        // navBox.style.display = 'none';
-        // navCheckbox.style.display = 'none';
         navHeader.classList.add('translateTop');
         navHeader.classList.remove('translateBottom');
-        navItems.classList.remove('nav__items--active');
-        navBox.classList.remove('nav__box--active');
-        navBox.classList.add('translateTop');        
-        navBox.classList.remove('translateBottom');
         navHeader.style.zIndex = '9';
         toggleMenu.style.transform = 'rotate(90deg)';
         servicesHeader.style.visibility = "visible";
@@ -44,7 +32,6 @@ toggleMenu.addEventListener('click', function (e) {
     }
     e.preventDefault();
 });
-
 
 
 

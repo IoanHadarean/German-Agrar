@@ -34,10 +34,6 @@
     right: 9.69%;
 } 
 
-.nav__box.closed {
-    max-height: 0;
-}
-
 .nav__items--active {
     display: block;
     height: 316px;
@@ -48,8 +44,6 @@
     top: 45px;
     position: absolute;  
 }
-
-
 
 /* ------ Special margins and styling -------- */
 html, body {
@@ -192,7 +186,7 @@ input[name = "checkbox"] {
 /* ------- Media Queries (except IPAD) -------------- */
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .nav__checkbox, .header__logo, .header__line, .nav__country, .nav__flag {
       display: none;
     }

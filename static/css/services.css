@@ -111,6 +111,7 @@ html, body {
     height: 43px;
     left: 43.44vw;
     position: absolute;
+    z-index: 10;
     transform: rotate(90deg);
     top: 401px;
   }
@@ -367,10 +368,10 @@ html, body {
   .investments__information {
     top: 1264px;
   }
-
+/* 
   .services__range {
     visibility: visible;
-  }
+  } */
 
   .partner, .land__field, .land__image {
     width: 100vw;
