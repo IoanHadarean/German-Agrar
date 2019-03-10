@@ -37,12 +37,16 @@
 .nav__items--active {
     display: block;
     height: 316px;
-    width: 247px;
+    width: 77.19vw;
     left: 10.62%;
     right: 12.19%;
     line-height: 50px;
     top: 45px;
     position: absolute;  
+}
+
+.header__nav--active {
+    top: 0 !important;
 }
 
 /* ------ Special margins and styling -------- */
@@ -194,6 +198,7 @@ input[name = "checkbox"] {
     .header__nav {
         height: 490px;
         background: #FFF;
+        top: -700%;
     }
 
     .link__title {

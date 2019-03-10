@@ -15,6 +15,7 @@ toggleMenu.addEventListener('click', function (e) {
     if (x === 'visible' || x === '') {
         navItems.classList.add('nav__items--active');
         navBox.classList.add('nav__box--active');
+        navHeader.classList.add('header__nav--active'); 
         navHeader.classList.add('translateBottom');   
         navHeader.classList.remove('translateTop');
         toggleMenu.style.transform = 'rotate(180deg)';
