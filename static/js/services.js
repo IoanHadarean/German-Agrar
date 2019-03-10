@@ -11,7 +11,8 @@ var navCheckbox = document.getElementsByClassName("nav__checkbox")[0];
 
 // Function for toggling menu on mobile
 toggleMenu.addEventListener('click', function (e) {
-    if (servicesHeader.style.visibility === 'visible') {
+    x = servicesHeader.style.visibility;
+    if (x === 'visible' || x === '') {
         navItems.classList.add('nav__items--active');
         navBox.classList.add('nav__box--active');
         navHeader.classList.add('translateBottom');   
